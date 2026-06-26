@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DJ DEE BASE | Personal Page</title>
+  <style>
+    body {font-family: Arial; margin:0; padding:20px; background:oklab(38.926% -0.02982 -0.12028); color:hsl(0, 76%, 8%); text-align:center;}
+    .box {max-width:500px; margin:50px auto; padding:30px; border:2px solid #00ff88; border-radius:15px;}
+    h1 {color:hsl(0, 81%, 44%);}
+    .btn {display:inline-block; margin-top:20px; padding:12px 25px; background:#00ff88; color:hsl(0, 4%, 82%); text-decoration:none; border-radius:8px; font-weight:bold; cursor:pointer; border:none; font-size:16px;}
+    .btn:hover {background:#8bc71c;}
+    img {width:120px; height:120px; border-radius:50%; border:3px solid #00ff88; object-fit:cover; margin-bottom:15px;}
+    img:hover {
+  border-color: #ffdd00;
+  box-shadow: 0 0 25px #00ff88;
+  transition: 0.3s;
+} </style>
+</head>
+<body>
+  <div class="box">
+    <img src="profile.jpg" alt="DJ DEE BASE">
+    <h1>Hey, I’m DJ DEE BASE 👋</h1>
+    <p id="bio">I build simple 1-page websites for DJs, brands & hustlers.</p>
+    <p>Skills: HTML, WhatsApp buttons, fixing old laptops 😂</p>
+
+   <button class="btn" onclick="countClick()">Tap Me Boss <span id="count"></span></button> 
+    <br>
+    <a class="btn" href="https://wa.me/2349080991666?text=Boss%20I%20want%20a%20website" style="background:#290268; color:#fff;">Chat On WhatsApp</a>
+  </div>
+  <script>
+    function countClick(){
+      document.getElementById("bio").innerHTML = "Thanks for tapping! I’m ready to build your website in 2 days 💰";
+    }
+  </script>
+</body>
+</html>
